@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.formuladiv {
+  width: 331.767;
+  padding-left: 218;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.formuladiv {
+  background-color: $font-color;
+  color: black;
+  font-style: italic;
+  font-size: 25px;
+  height: 70vh;
+  width: 100vw;
+}
+
+.formuladiv h1 {
+  width: 607.767px;
+  height: 48px;
+  margin-right: 369;
+  border: solid $padding-color;
+  background-color: $padding-color;
+}
+.formuladiv a {
+  width: 148.8px;
+  height: 26px;
+  margin-left: 210px;
+  margin-top: 1px;
+  margin-left: 129px;
+}
+.formuladiv a:hover {
+  color: $main-color;
+  background-color: $padding-color;
+}
+
+img {
+  height: 243px;
+  height: 243px;
+  width: 227px;
+  float: left;
+}

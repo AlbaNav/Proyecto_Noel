@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+.noel1 {
+  background-image: url("../images/cabecerasanta.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+  height: 100px;
+  width: 100vw;
+}
+.papaNoel {
+  background-color: $main-color;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: row;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+.titulo1 {
+  background-color: $secondary-color;
+  color: $main-color;
+  width: 400px;
+  border-radius: 100%;
+  font-size: 20px;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.textoNoel {
+  margin: 60px;
+  font-size: 19px;
+  font-weight: bold;
+  font-style: oblique;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+}
+
+.titulo2 {
+  background-color: $padding-color;
+  color: $font-color;
+  width: 200px;
+  border-radius: 100%;
+  font-size: 18px;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  text-transform: uppercase;
+}

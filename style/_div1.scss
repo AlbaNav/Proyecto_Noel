@@ -1,0 +1,15 @@
+.presentacion h1 {
+  background-color: $secondary-color;
+  text-align: center;
+  font-style: italic;
+  height: 45px;
+}
+
+.texto-inicio {
+  background-color: $secondary-color;
+  font-size: 18px;
+  font-style: italic;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}

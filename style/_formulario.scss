@@ -1,0 +1,25 @@
+.formulario {
+  background-color: $light-color;
+  color: black;
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+  height: 40px;
+  width: 100vw;
+}
+
+.formulario1 {
+  background-image: url("../images/fondo_formulario.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  height: 100vh;
+  padding-bottom: 10%;
+}
+footer {
+  background-color: transparent;
+  text-align: center;
+  color: black;
+}

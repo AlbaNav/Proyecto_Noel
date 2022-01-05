@@ -1,0 +1,18 @@
+.section1 {
+  background-image:url("../images/fondonavidad.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 2px #6C0000;
+  border-image-outset: 2cm;
+}
+.music {
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+}

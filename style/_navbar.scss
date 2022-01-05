@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.navbar {
+  background-image: url("../images/6fondo.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  color: $padding-color;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: row;
+  flex-wrap: wrap;
+  -ms-flex-align: start;
+  list-style: none;
+  height: 45px;
+  width: 100vw;
+  
+}
+.navbar-item {
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  margin-right: 20px;
+  padding: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.navbar-item
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: $padding-color;
+}
+
+a:hover {
+  color: $font-color;
+}

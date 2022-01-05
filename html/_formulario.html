@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css"/>
+    <link rel="icon" href="./images/logo/renologo.png" type="image/png" />
+    <title>Escribe a Santa Claus</title>
+  </head>
+
+  <body >
+    <h1 class="formulario">¿Quieres decirle algo a Santa Claus?</h1>
+
+    <!--formulario-->
+    <form
+      class="formulario1"
+      action="https://reqres.in/api/users?page=2"
+      method="get"
+      autocomplete="off"
+    >
+      <fieldset>
+        <legend>¿Quién eres?</legend>
+
+        <label for="fname">Nombre</label>
+        <input type= "text"fname" id="fname"name="first_name"/>
+
+        <label for="lname">Apellido</label>
+        <input type= "text="lname" id="lname" name="last_name"/>
+
+        <label for="city"> Ciudad:</label>
+        <input type= "text"ciudad" id="ciudad"name="tuciudad"/>
+        </select>
+        <br />
+        <br />
+        <label for="email"> email</label>
+        <input
+          type="email"
+          id="email"
+          name="email "
+          required
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}"
+        />
+
+        <label for="date"> fecha de nacimiento</label>
+        <input type="date" id="date" name="date" />
+        <br />
+        <br />
+        <br />
+        <br />
+        <label for="message">mensaje</label>
+        <br />
+        <textarea
+          id="message"
+          name="user-message"
+          placeholder="Escribe aqui tu mensaje"
+          rows="30"
+          cols="100"
+        ></textarea>
+      </fieldset>
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+  <footer>
+    <p>Proyecto para Upgrade Hub. Copyright Alba Navarro 2021.</p>
+  </footer>
+</html>
