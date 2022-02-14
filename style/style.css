@@ -9,10 +9,10 @@ body {
 }
 
 .navbar {
-  background-image: url("../images/6fondo.png");
+  background-image: url("../images//images/6fondo.png");
   background-repeat: no-repeat;
   background-size: cover;
-  color: #B19081;
+  color: #b19081;
 }
 
 .navbar-container {
@@ -20,10 +20,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: row;
-      -ms-flex-pack: row;
-          justify-content: row;
+  -ms-flex-pack: row;
+  justify-content: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -ms-flex-align: start;
   list-style: none;
   height: 45px;
@@ -40,34 +40,33 @@ body {
   text-decoration: none;
 }
 
-.navbar-item
-a:link,
+.navbar-item a:link,
 a:visited,
 a:active {
   text-decoration: none;
-  color: #B19081;
+  color: #b19081;
 }
 
 a:hover {
-  color: #1F3131;
+  color: #1f3131;
 }
 
 .presentacion h1 {
-  background-color: #587D6D;
+  background-color: #587d6d;
   text-align: center;
   font-style: italic;
   height: 45px;
 }
 
 .texto-inicio {
-  background-color: #587D6D;
+  background-color: #587d6d;
   font-size: 18px;
   font-style: italic;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   text-align: center;
 }
 
@@ -81,7 +80,7 @@ body {
 }
 
 .noel1 {
-  background-image: url("../images/cabecerasanta.jpg");
+  background-image: url("../images/images/6fondo.png");
   background-repeat: repeat;
   background-size: contain;
   height: 100px;
@@ -96,17 +95,17 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: row;
-      -ms-flex-pack: row;
-          justify-content: row;
+  -ms-flex-pack: row;
+  justify-content: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .titulo1 {
-  background-color: #587D6D;
+  background-color: #587d6d;
   color: #600b03;
   width: 400px;
   border-radius: 100%;
@@ -128,13 +127,13 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   text-align: justify;
 }
 
 .titulo2 {
-  background-color: #B19081;
-  color: #1F3131;
+  background-color: #b19081;
+  color: #1f3131;
   width: 200px;
   border-radius: 100%;
   font-size: 18px;
@@ -147,7 +146,7 @@ body {
 }
 
 .section1 {
-  background-image: url("../images/fondonavidad.png");
+  background-image: url("../images//images/fondonavidad.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -156,14 +155,14 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-bottom: 2px #6C0000;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 2px #6c0000;
   border-image-outset: 2cm;
 }
 
@@ -184,7 +183,7 @@ body {
 }
 
 .formulario1 {
-  background-image: url("../images/fondo_formulario.jpg");
+  background-image: url("../images//images/fondo_formulario.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 30px;
@@ -213,18 +212,18 @@ footer {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
 }
 
 .formuladiv {
-  background-color: #1F3131;
+  background-color: #1f3131;
   color: black;
   font-style: italic;
   font-size: 25px;
@@ -236,8 +235,8 @@ footer {
   width: 607.767px;
   height: 48px;
   margin-right: 369;
-  border: solid #B19081;
-  background-color: #B19081;
+  border: solid #b19081;
+  background-color: #b19081;
 }
 
 .formuladiv a {
@@ -250,7 +249,7 @@ footer {
 
 .formuladiv a:hover {
   color: #600b03;
-  background-color: #B19081;
+  background-color: #b19081;
 }
 
 img {
@@ -262,7 +261,7 @@ img {
 
 .calendario {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -270,7 +269,7 @@ img {
 .cabecera {
   height: 150px;
   width: 100vw;
-  background-image: url(../images/cabeceracalendari.png);
+  background-image: url("../images//images/cabeceracalendari.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -301,31 +300,29 @@ a:active {
 
 .calcontainer a:hover {
   background-color: #600b0354;
-  color: #1F3131;
+  color: #1f3131;
   padding: 15px;
   border-radius: 10%;
 }
 
 .calcontainer {
-  background-color: #587D6D;
+  background-color: #587d6d;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (1fr)[5];
-      grid-template-rows: repeat(5, 1fr);
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(150px, 2fr);
   grid-auto-flow: dense;
   padding: 2rem;
 }
 
-.cal-item1 {
-  background-image: url(../images/papanoel.jpg);
+.calitem1 {
+  background-image: url("../images/images/papanoel.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
   background-position: center center;
   border: 3px solid white;
   border-radius: 0.66rem;
@@ -333,22 +330,22 @@ a:active {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: black;
   grid-row: span 2;
   grid-column: span 2;
 }
 
-.cal-item2 {
-  background-image: url(../images/pieschimenea.jpg);
+.calitem2 {
+  background-image: url("../images//images/pieschimenea.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
   background-position: center center;
   border: 3px solid white;
   border-radius: 0.66rem;
@@ -356,21 +353,21 @@ a:active {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-row: span 2;
 }
 
-.cal-item3 {
-  background-image: url(../images/fondo1.jpg);
+.calitem3 {
+  background-image: url("../images//images/fondo1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
   background-color: #770f0f;
   border: 3px solid white;
   border-radius: 0.66rem;
@@ -378,142 +375,142 @@ a:active {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: black;
   grid-column: span 1;
   grid-row: span 2;
 }
 
-.cal-item4 {
-  background-image: url(../images/calcetinesnavidad.jpeg);
+.calitem4 {
+  background-image: url("../images//images/calcetinesnavidad.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
   border: 3px solid white;
   border-radius: 0.66rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-row: span 3;
   -ms-grid-column: 2;
   grid-column: 2;
 }
 
-.cal-item5 {
-  background-image: url(../images/piñas.jpg);
+.calitem5 {
+  background-image: url("../images/images/piñas.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
   border: 3px solid white;
   border-radius: 0.66rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-row: span 2;
 }
 
-.cal-item6 {
-  background-image: url(../images/casalucesnavidad.jpeg);
+.calitem6 {
+  background-image: url("../images/images/casalucesnavidad.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: center;
-     object-fit: center;
+  object-fit: center;
   border: 3px solid white;
   border-radius: 0.66rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-row: span 2;
 }
 
-.cal-item7 {
-  background-image: url(../images/arbolnieve.jpeg);
+.calitem7 {
+  background-image: url("../images/images/arbolnieve.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border: 3px solid white;
   border-radius: 0.66rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-row: span 2;
 }
 
-.cal-item8 {
-  background-image: url(../images/perroreno.jpeg);
+.calitem8 {
+  background-image: url("../images/images/perroreno.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
   border: 3px solid white;
   border-radius: 0.66rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-row: span 3;
   -ms-grid-column: 2;
   grid-column: 2;
 }
 
-.cal-item9 {
-  background-image: url(../images/regalosnavidad.jpeg);
+.calitem9 {
+  background-image: url("../images/images/regalosnavidad.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
   border: 3px solid white;
   border-radius: 0.66rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   -ms-grid-column: 4;
   -ms-grid-column-span: 1;
@@ -521,117 +518,117 @@ a:active {
   grid-row: span 2;
 }
 
-.cal-item10 {
-  background-image: url(../images/casagenjibre.jpeg);
+.calitem10 {
+  background-image: url("../images/images/casagenjibre.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
   border: 3px solid white;
   border-radius: 0.66rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-row: span 3;
   -ms-grid-column: 2;
   grid-column: 2;
 }
 
-.cal-item11 {
-  background-image: url(../images/florpascua.jpeg);
+.calitem11 {
+  background-image: url("../images/images/florpascua.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
   border: 3px solid white;
   border-radius: 0.66rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-row: span 2;
 }
 
-.cal-item12 {
-  background-image: url(../images/trineo.jpeg);
+.calitem12 {
+  background-image: url("../images/images/trineo.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
   border: 3px solid white;
   border-radius: 0.66rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-row: span 2;
   -ms-grid-column: 2;
   grid-column: 2;
 }
 
-.cal-item13 {
-  background-image: url(../images/velanavidad.jpeg);
+.calitem13 {
+  background-image: url("../images/images/velanavidad.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
   border: 3px solid white;
   border-radius: 0.66rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-row: span 2;
 }
 
-.cal-item14 {
-  background-image: url(../images/niñoarbolnavidad.jpeg);
+.calitem14 {
+  background-image: url("../images/images/niñoarbolnavidad.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
   border: 3px solid white;
   border-radius: 0.66rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-row: span 2;
 }
 
-.cal-item15 {
-  background-image: url(../images/renoblanco.jpeg);
+.calitem15 {
+  background-image: url("../images/images/renoblanco.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   border: 3px solid white;
@@ -640,148 +637,148 @@ a:active {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-column: span 1;
   grid-row: span 1;
 }
 
-.cal-item16 {
-  background-image: url(../images/baston.jpeg);
+.calitem16 {
+  background-image: url("../images/images/baston.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
   border: 3px solid white;
   border-radius: 0.66rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-row: span 2;
 }
 
-.cal-item17 {
-  background-image: url(../images/reno.jpeg);
+.calitem17 {
+  background-image: url("../images/images/reno.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
   border: 3px solid white;
   border-radius: 0.66rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-row: span 2;
 }
 
-.cal-item18 {
-  background-image: url(../images/niñosnavidad.jpeg);
+.calitem18 {
+  background-image: url("../images/images/niñosnavidad.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
   border: 3px solid white;
   border-radius: 0.66rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-row: span 1;
   -ms-grid-column: 1;
   grid-column: 1;
 }
 
-.cal-item19 {
-  background-image: url(../images/adornos.jpeg);
+.calitem19 {
+  background-image: url("../images/images/adornos.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
   border: 3px solid white;
   border-radius: 0.66rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-row: span 1;
   grid-column: span 1;
 }
 
-.cal-item20 {
-  background-image: url(../images/regalosnavidad.jpg);
+.calitem20 {
+  background-image: url("../images/images/regalosnavidad.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
   border: 3px solid white;
   border-radius: 0.66rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-column: span 1;
   grid-row: span 1;
 }
 
-.cal-item21 {
-  background-image: url(../images/bolanavidad.jpg);
+.calitem21 {
+  background-image: url("../images/images/bolanavidad.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border: 3px solid white;
   border-radius: 0.66rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-row: span 2;
 }
 
-.cal-item22 {
-  background-image: url(../images/cenanavidad.jpg);
+.calitem22 {
+  background-image: url("../images/images/cenanavidad.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border: 3px solid white;
@@ -790,17 +787,17 @@ a:active {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-row: span 1;
 }
 
-.cal-item23 {
-  background-image: url(../images/frosty.jpg);
+.calitem23 {
+  background-image: url("../images/images/frosty.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border: 3px solid white;
@@ -809,38 +806,38 @@ a:active {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-row: span 2;
 }
 
-.cal-item24 {
-  background-image: url(../images/arbolchimenea.jpeg);
+.calitem24 {
+  background-image: url("../images/images/arbolchimenea.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
   border: 3px solid white;
   border-radius: 0.66rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-row: span 2;
 }
 
-.cal-item25 {
-  background-image: url(../images/feliznavidad.gif);
+.calitem25 {
+  background-image: url("../images/images/feliznavidad.gif");
   background-repeat: no-repeat;
   background-size: cover;
   border: 3px solid white;
@@ -849,18 +846,18 @@ a:active {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: white;
   grid-column: span 1;
   grid-row: span 3;
 }
 
 footer {
-  background-color: #587D6D;
+  background-color: #587d6d;
   text-align: center;
   font-weight: bolder;
   text-transform: uppercase;
